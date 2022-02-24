@@ -1,3 +1,104 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+section {
+  margin: 60px 0;
+}
 h1 {
-  color: blueviolet;
+  font-size: 40px;
+}
+.btn {
+  padding: 10px 5px;
+  margin: 5px;
+  background-color: crimson;
+  border-radius: 5px;
+  color: white;
+  border: 0px;
+}
+.half-width {
+  display: flex;
+  margin: 2% 5%;
+}
+.info {
+  width: 70%;
+}
+.info-img {
+  width: 30%;
+}
+.half-width p {
+  width: 70%;
+}
+.half-width img {
+  width: 70%;
+  margin-left: 5%;
+}
+.center {
+  text-align: center;
+}
+.color-tone {
+  color: rgb(241, 153, 153);
+}
+/* 1st section  */
+.top-title {
+  font-family: "Dancing Script", cursive;
+}
+.left-style {
+  border-left: 4px solid red;
+  line-height: 30px;
+  padding-left: 7px;
+}
+.btn-top {
+  width: 100px;
+}
+.small {
+  font-size: 14px;
+}
+/* 2nd part  */
+.three-part {
+  margin: 2% 5%;
+  display: flex;
+}
+.mission-image {
+  width: 30%;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+.m1 {
+  background-color: rgba(165, 253, 224, 0.432);
+}
+.m2 {
+  background-color: rgba(240, 239, 155, 0.425);
+}
+.m3 {
+  background-color: rgba(140, 172, 240, 0.253);
+}
+.three-part img {
+  width: 30%;
+}
+/* 3rd part  */
+.btn-doc {
+  width: 200px;
+}
+/* 5th part  */
+.new-img {
+  border-radius: 10px;
+  padding-top: 40px;
+}
+.join-btn {
+  width: 100px;
+}
+/* footer  */
+.footer {
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+}
+.footer p {
+  font-size: 14px;
+}
+.foot {
+  font-family: "Dancing Script", cursive;
 }
